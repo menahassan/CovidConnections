@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/NameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="10pt"
+            android:paddingTop="10dp"
+            android:textColor="#000000">
+        </TextView>
+
+        <EditText
+            android:id="@+id/EditName"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NameTitle"
+            android:hint="Enter First and Last Name Here"
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <TextView
+            android:id="@+id/TimeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How many requests/questions will you be able to answer each week?"
+            android:textSize="10pt"
+            android:layout_below="@id/EditName"
+            android:paddingTop="15dp"
+            android:textColor="#000000">
+        </TextView>
+
+        <EditText
+            android:id="@+id/EditTime"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TimeTitle"
+            android:hint="Enter Max Number of Requests Here"
+            android:inputType="number"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <TextView
+            android:id="@+id/LanguageTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Which Languages Can You Communicate In?"
+            android:layout_below="@id/EditTime"
+            android:textSize="10pt"
+            android:textColor="#000000"
+            android:paddingTop="15dp">
+        </TextView>
+
+        <CheckBox android:id="@+id/checkbox_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LanguageTitle"
+            android:text="English" />
+        <CheckBox android:id="@+id/checkbox_spanish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkbox_english"
+            android:text="Spanish" />
+        <CheckBox android:id="@+id/checkbox_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkbox_spanish"
+            android:text="Other" />
+
+        <TextView
+            android:id="@+id/otherTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="If other, please specify:"
+            android:layout_below="@id/checkbox_other"
+            android:textSize="10pt"
+            android:textColor="#000000"
+            android:paddingTop="15dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/EditOtherLanguage"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/otherTitle"
+            android:hint="Enter Language Here"
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <TextView
+            android:id="@+id/countyTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="County:"
+            android:layout_below="@id/EditOtherLanguage"
+            android:textSize="10pt"
+            android:textColor="#000000"
+            android:paddingTop="15dp">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/CountyMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/countyTitle" />
+
+        <TextView
+            android:id="@+id/SpecialtyTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CountyMenu"
+            android:layout_marginTop="3dp"
+            android:paddingTop="15dp"
+            android:text="Specialty:"
+            android:textColor="#000000"
+            android:textSize="10pt">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/SpecialtyMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            android:layout_below="@id/SpecialtyTitle" />
+
+        <Button
+            android:id="@+id/submitDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="15dp"
+            android:layout_below="@id/SpecialtyMenu"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:text="Submit"
+            android:background="#008080"/>
+
+    </RelativeLayout>
+</ScrollView>

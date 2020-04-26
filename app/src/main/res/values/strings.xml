@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Covid Connections</string>
+    <string name="doctorbutton">Doctor</string>
+    <string name="patientbutton">Patient</string>
+    <string name="SelectText">Are you a Doctor or a Patient?</string>
+    <string-array name="states_array">
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+
+    <string-array name="county_array">
+        <item>Santa Clara</item>
+        <item>Los Angeles</item>
+        <item>Monterey</item>
+        <item>San Diego</item>
+        <item>San Mateo</item>
+        <item>El Dorado</item>
+        <item>Shasta</item>
+        <item>Fresno</item>
+        <item>Kern</item>
+        <item>Siskiyou</item>
+        <item>Shasta</item>
+        <item>Santa Barbara</item>
+        <item>Yolo</item>
+        <item>Alameda</item>
+        <item>Solano</item>
+        <item>Riverside</item>
+        <item>Merced</item>
+        <item>San Joaquin</item>
+        <item>San Benito</item>
+        <item>Orange</item>
+        <item>San Francisco</item>
+        <item>Contra Costa</item>
+        <item>Tulare</item>
+        <item>Marin</item>
+        <item>Ventura</item>
+        <item>San Bernardino</item>
+        <item>Ventura</item>
+        <item>Butte</item>
+    </string-array>
+
+    <string-array name="specialty_array">
+        <item>Anesthesiology</item>
+        <item>Obstetrics &amp; Gynecology</item>
+        <item>Allergy &amp; Immunology</item>
+        <item>Family Medicine</item>
+        <item>Radiology</item>
+        <item>Psychiatry &amp; Neurology</item>
+        <item>Plastic Surgery</item>
+        <item>Dermatology</item>
+        <item>Internal Medicine</item>
+        <item>Preventive Medicine</item>
+        <item>Medical Clinics</item>
+        <item>Pediatrics</item>
+        <item>Surgery</item>
+        <item>Orthopedic Surgery</item>
+        <item>Optometrist</item>
+        <item>Podiatrist</item>
+        <item>Pain Medicine</item>
+        <item>Pathology</item>
+        <item>Genetics</item>
+        <item>Sleep Disorders</item>
+        <item>Medical Clinics</item>
+    </string-array>
+    <string name="title_doctor_list">Doctors</string>
+    <string name="title_doctor_detail">Doctor Detail</string>
+    <string name="declinePatient">DECLINE</string>
+    <string name="acceptPatient">ACCEPT</string>
+    <string name="title_your_requests">Your Requests</string>
+    <string name="username">Patient123</string>
+    <string name="contact_info">Preferred Method of Contact Info Listed Here</string>
+    <string name="request_blurb">I think I may have iridocyclitis!! Help!!</string>
+    <string name="profile">Profile</string>
+    <string name="description_instructions">Briefly describe your condition.</string>
+    <string name="description_hint">What are you seeking treatment for?</string>
+    <string name="specialty_type">Preferred Specialty of Physician</string>
+    <string name="title_request">Make a Request</string>
+    <string name="specific_doctor">Is there a specific doctor you would like to see?</string>
+    <string name="specific_doctorName">If so, enter their full name here</string>
+    <string name="submit">Submit</string>
+</resources>
+
+
