@@ -1,4 +1,5 @@
 # Covid Connections
+Created by: Mena Hassan, Ramya Ayyagari, and Madeleine Salem
 
 ## Inspiration:
 In these uncertain times, many patients are unable to consult their doctors in person, and many doctors are unable to find the time to meet with patients that do not need urgent care. Our Doctor-Patient Matching App is meant to connect anonymous patients with verified doctors with quick questions so that patients always have access to accurate health information and doctors have enough time to answer questions.
